@@ -2138,7 +2138,7 @@ static void usage(void)
 {
   signal_stop();              // kill us with CTRL-C here, if you like
 
-  mch_msg(_("Usage:\n"));
+  mch_msg(_("Usage(!):\n"));
   mch_msg(_("  nvim [options] [file ...]      Edit file(s)\n"));
   mch_msg(_("  nvim [options] -t <tag>        Edit file where tag is defined\n"));
   mch_msg(_("  nvim [options] -q [errorfile]  Edit file with first error\n"));
